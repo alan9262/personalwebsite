@@ -39,7 +39,10 @@ export default class Education extends Component {
                         </div>
                     </div>
                 </section>
+                <footer className="text-center">Inspired from <a href="https://colorlib.com/">Colorlib</a></footer>
             </div>
+
+           
         )
     }
 }
