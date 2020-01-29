@@ -284,7 +284,6 @@ figure {
       min-height: 500px;
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-        display: table-cell;
         vertical-align: middle;
         min-height: 700px;
         padding: 2.5em;
@@ -336,7 +335,7 @@ figure {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
             border: 1px solid #000;
-            background: transparent !important; }
+            background: whitesmoke !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
