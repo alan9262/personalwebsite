@@ -15,19 +15,20 @@ export default class Sidebar extends Component {
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">Work Experience</a></li>
                   <li><a href="#projects" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#education" data-nav-section="educations">Education</a></li>
+                  <li><a href="#home" data-nav-section="educations">Education</a></li>
                 </ul>
               </div>
             </nav>
             <nav id="colorlib-main-menu">
-              <ul>
-                <li><a href="https://www.linkedin.com/in/alankritchaturvedi/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                <li><a href="https://github.com/alan9262" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-              </ul>
+              <div id="navbar" className="collapse">
+                <ul>
+                  <li><a href="https://www.linkedin.com/in/alankritchaturvedi/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
+                  <li><a href="https://github.com/alan9262" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                </ul>
+              </div>
             </nav>
           </aside>
         </div>

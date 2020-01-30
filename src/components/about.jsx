@@ -30,94 +30,98 @@ export default class About extends Component {
                                 <span className="heading-meta">What I do?</span>
                             </div>
                         </div>
-                        <div className="row row-pt-md">
-                            <div className="col-md-5 text-center animate-box">
-                                <div className="services color-1">
-                                    <span className="icon">
-                                        <i className="icon-study" />
-                                    </span>
-                                    <div className="desc">
-                                        <h3>Courses</h3>
-                                        <p>Java, Distributed Systems, Web App Development, SQL and NoSQL Database Management, Artificial Intelligence</p>
-                                        <br></br>
-                                    </div>
+                    </div>
+                </section>
+                <section className="colorlib-about">
+                    <div className="row row-pt-md">
+                        <div className="col-md-6 text-center animate-box">
+                            <div className="services color-1">
+                                <span className="icon">
+                                    <i className="icon-study" />
+                                </span>
+                                <div className="desc">
+                                    <h3>Courses</h3>
+                                    <p>Java, Distributed Systems, Web App Development, SQL and NoSQL Database Management, Artificial Intelligence</p>
+                                    <br></br>
                                 </div>
                             </div>
-                            <div className="col-md-3 text-center animate-box">
-                                <div className="services color-3">
-                                    <span className="icon">
-                                        <i className="icon-stack2" />
-                                    </span>
-                                    <div className="desc">
-                                        <h3>Languages</h3>
-                                        <p>Java, Python, JavaScript,
+                        </div>
+                        <div className="col-md-6 text-center animate-box">
+                            <div className="services color-3">
+                                <span className="icon">
+                                    <i className="icon-stack2" />
+                                </span>
+                                <div className="desc">
+                                    <h3>Languages</h3>
+                                    <p>Java, Python, JavaScript,
                                         jQuery, AJAX, SQL, VBA</p>
-                                        <br></br>
-                                    </div>
+                                    <br></br>
+                                    <br></br>
                                 </div>
                             </div>
-                            <div className="col-md-4 text-center animate-box">
-                                <div className="services color-5">
-                                    <span className="icon">
-                                        <i className="icon-safari" />
-                                    </span>
-                                    <div className="desc">
-                                        <h3>Web Technologies</h3>
-                                        <p>HTML5/CSS/JS, Django, Java Servlets, JSP, React, NodeJS, ExpressJS, Apex, Bootstrap, Materialize</p>
-                                    </div>
+                        </div>
+                        <div className="col-md-6 text-center animate-box">
+                            <div className="services color-5">
+                                <span className="icon">
+                                    <i className="icon-safari" />
+                                </span>
+                                <div className="desc">
+                                    <h3>Web Technologies</h3>
+                                    <p>HTML5/CSS/JS, Django, Java Servlets, JSP, React, NodeJS, ExpressJS, Apex, Bootstrap, Materialize</p>
                                 </div>
                             </div>
+                        </div>
 
-                            <div className="col-md-4 text-center animate-box">
-                                <div className="services color-2">
-                                    <span className="icon">
-                                        <i className="icon-data" />
-                                    </span>
-                                    <div className="desc">
-                                        <h3>Databases</h3>
-                                        <p>Oracle Database SQLPLUS, PostgreSQL, MongoDB, Couchbase, Redis, Cassandra, Neo4j</p>
-                                    </div>
+                        <div className="col-md-6 text-center animate-box">
+                            <div className="services color-2">
+                                <span className="icon">
+                                    <i className="icon-data" />
+                                </span>
+                                <div className="desc">
+                                    <h3>Databases</h3>
+                                    <p>Oracle Database SQLPLUS, PostgreSQL, MongoDB, Couchbase, Redis, Cassandra, Neo4j</p>
                                 </div>
                             </div>
-                            <div className="col-md-4 text-center animate-box">
-                                <div className="services color-4">
-                                    <span className="icon">
-                                        <i className="icon-cloud3" />
-                                    </span>
-                                    <div className="desc">
-                                        <h3>Cloud</h3>
-                                        <p>Microsoft Azure, Amazon Web Services (AWS), Heroku</p>
-                                        <br></br>
-                                    </div>
+                        </div>
+                        <div className="col-md-6 text-center animate-box">
+                            <div className="services color-4">
+                                <span className="icon">
+                                    <i className="icon-cloud3" />
+                                </span>
+                                <div className="desc">
+                                    <h3>Cloud</h3>
+                                    <p>Microsoft Azure, Amazon Web Services (AWS), Heroku</p>
+                                    <br></br>
+                                    <br></br>
                                 </div>
                             </div>
-                            <div className="col-md-4 text-center animate-box">
-                                <div className="services color-6">
-                                    <span className="icon">
-                                        <i className="icon-layers2" />
-                                    </span>
-                                    <div className="desc">
-                                        <h3>Business Analysis</h3>
-                                        <p>Requirement Gathering, Product Planning and Management, Solution Design, Troubleshooting</p>
-                                    </div>
+                        </div>
+                        <div className="col-md-6 text-center animate-box">
+                            <div className="services color-6">
+                                <span className="icon">
+                                    <i className="icon-layers2" />
+                                </span>
+                                <div className="desc">
+                                    <h3>Business Analysis</h3>
+                                    <p>Requirement Gathering, Product Planning and Management, Solution Design, Troubleshooting</p>
+                                    <br></br>
                                 </div>
                             </div>
-                            <div className="col-md-12 text-center animate-box">
-                                <div className="services color-4">
-                                    <span className="icon">
-                                        <i className="icon-stack2" />
-                                    </span>
-                                    <div className="desc">
-                                        <h3>Tools/Frameworks</h3>
-                                        <p>Android, Git, Django channels, Apache Tomcat, WebSockets, d3 charts, Azure DevOps for CI/CD, Redux, Flux, Gulp, Grunt, Webpack, Jenkins, Unit test frameworks (Django tests, Jest, Enzyme, Mocha, Chai, Istanbul), Microsoft Excel, Jitterbit, Apex Data Loader, Putty, Postman, Selenium </p>
-                                    </div>
+                        </div>
+                        <div className="col-md-12 text-center animate-box">
+                            <div className="services color-4">
+                                <span className="icon">
+                                    <i className="icon-stack2" />
+                                </span>
+                                <div className="desc">
+                                    <h3>Tools/Frameworks</h3>
+                                    <p>Android, Git, Django channels, Apache Tomcat, WebSockets, d3 charts, Azure DevOps for CI/CD, Redux, Flux, Gulp, Grunt, Webpack, Jenkins, Unit test frameworks (Django tests, Jest, Enzyme, Mocha, Chai, Istanbul), Microsoft Excel, Jitterbit, Apex Data Loader, Putty, Postman, Selenium </p>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </section>
-            </div>
+            </div >
         )
     }
 }
