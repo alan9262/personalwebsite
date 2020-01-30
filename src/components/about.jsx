@@ -14,7 +14,7 @@ export default class About extends Component {
                                             <span className="heading-meta">About Me</span>
                                             <p>I am a graduate student at Carnegie Mellon University pursuing Information Systems Management. With a demonstrated experience in different industries for about 5 years, I have received many challenges and domain changes in terms of technologies, starting from learning salesforce and Java, learning and developing excel VBA macros, handling/managing teams and moving to web development (learning JavaScript and related UI technologies). With my quick grasping ability, constant learning and positive attitude I have successfully achieved different milestones in my career. </p>
                                             <p>I am passionate about coding and am skilled in software development lifecycle, from managing teams to building and delivering quality products through Agile and Waterfall methodologies.</p>
-                                            <p>I am looking forward to continue my journey in technology by combining my experience and the skills I am currently gaining from Carnegie Mellon University to provide best, out of the box solutions to the organizations I will be associating with.</p>
+                                            <p>I am looking forward to continue my journey in technology by combining my experience and the knowledge I am currently gaining from Carnegie Mellon University to provide best, out of the box solutions to the organizations I will be associating with.</p>
 
                                         </div>
                                     </div>
