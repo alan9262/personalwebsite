@@ -5,7 +5,7 @@ import Introduction from './components/introduction';
 import About from './components/about';
 import Timeline from './components/timeline';
 import Projects from './components/projects';
-import Education from './components/education';
+import Education from './components/educations';
 
 class App extends Component {
   render() {

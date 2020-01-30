@@ -38,7 +38,8 @@ export default class About extends Component {
                                     </span>
                                     <div className="desc">
                                         <h3>Courses</h3>
-                                        <p>Java, Distributed Systems, Web App Development, SQL and NoSQL Database Management, Artificial Intelligence<hr></hr></p>
+                                        <p>Java, Distributed Systems, Web App Development, SQL and NoSQL Database Management, Artificial Intelligence</p>
+                                        <br></br>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +52,7 @@ export default class About extends Component {
                                         <h3>Languages</h3>
                                         <p>Java, Python, JavaScript,
                                         jQuery, AJAX, SQL, VBA</p>
-                                        <p></p>
+                                        <br></br>
                                     </div>
                                 </div>
                             </div>
@@ -86,6 +87,7 @@ export default class About extends Component {
                                     <div className="desc">
                                         <h3>Cloud</h3>
                                         <p>Microsoft Azure, Amazon Web Services (AWS), Heroku</p>
+                                        <br></br>
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +102,7 @@ export default class About extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-8 text-center animate-box">
+                            <div className="col-md-12 text-center animate-box">
                                 <div className="services color-4">
                                     <span className="icon">
                                         <i className="icon-stack2" />
