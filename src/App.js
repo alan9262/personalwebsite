@@ -5,22 +5,22 @@ import Introduction from './components/introduction';
 import About from './components/about';
 import Timeline from './components/timeline';
 import Projects from './components/projects';
-import Education from './components/educations';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
     return (
       <div id="colorlib-page">
         <div id="container-wrap">
-         	<Sidebar></Sidebar>
-				<div id="colorlib-main">
-					<Introduction></Introduction>
-					<About></About>
-					<Timeline></Timeline>
-          <Projects></Projects>
-          <Education></Education>
-          	</div>
-      	</div>
+          <Sidebar></Sidebar>
+          <div id="colorlib-main">
+            <Introduction></Introduction>
+            <About></About>
+            <Timeline></Timeline>
+            <Projects></Projects>
+            <Footer></Footer>
+          </div>
+        </div>
       </div>
     );
   }
