@@ -10,7 +10,7 @@ export default class Projects extends Component {
 							<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 								<span className="heading-meta">My Work</span>
 								<h2 className="colorlib-heading animate-box">Publications</h2>
-								<p><a href="https://www.ijsr.net/show_abstract.php">Security Challenges and Solutions in MongoDB </a></p>
+								<p><a href="https://www.ijsr.net/archive/v9i1/ART20204190.pdf">Security Challenges and Solutions in MongoDB </a></p>
 								<h2 className="colorlib-heading animate-box">Certifications</h2>
 								<p><a href="https://drive.google.com/file/d/1tPO6Kecl40KcHW2h_Mgotjr2d-BSB_ag/view">Certified Salesforce Administrator</a> Apr 2015 - Apr 2016</p>
 								<p><a href="https://drive.google.com/file/d/1LN8NJ85H0bw9MY3gysx2HMLm-g1LBOFF/view">Certified Salesforce Developer</a> Feb 2015 - Feb 2016</p>
