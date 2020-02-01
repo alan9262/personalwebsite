@@ -12,8 +12,8 @@ export default class Projects extends Component {
 								<h2 className="colorlib-heading animate-box">Publications</h2>
 								<p><a href="https://www.ijsr.net/show_abstract.php">Security Challenges and Solutions in MongoDB </a></p>
 								<h2 className="colorlib-heading animate-box">Certifications</h2>
-								<p><a href="https://drive.google.com/file/d/1tPO6Kecl40KcHW2h_Mgotjr2d-BSB_ag/view">Certified Salesforce Administrator</a> Issued: Apr 2015 - Apr 2016</p>
-								<p><a href="https://drive.google.com/file/d/1LN8NJ85H0bw9MY3gysx2HMLm-g1LBOFF/view">Certified Salesforce Developer</a> Issued: Feb 2015 - Feb 2016</p>
+								<p><a href="https://drive.google.com/file/d/1tPO6Kecl40KcHW2h_Mgotjr2d-BSB_ag/view">Certified Salesforce Administrator</a> Apr 2015 - Apr 2016</p>
+								<p><a href="https://drive.google.com/file/d/1LN8NJ85H0bw9MY3gysx2HMLm-g1LBOFF/view">Certified Salesforce Developer</a> Feb 2015 - Feb 2016</p>
 							</div>
 						</div>
 						<h2 className="colorlib-heading animate-box">Recent Projects</h2>
@@ -81,7 +81,7 @@ added to the block was verified via proof of work algorithm and if the chain was
 								<div className="project" style={{backgroundImage: 'url(images/database.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Database Implementation Projec</a></h3>
+											<h3><a href="work.html">Database Implementation Project</a></h3>
 											<span>Oracle SQLPLUS</span>
 											<p className="project-para">Built and manipulated a relational database model using SQL to store, manage and implement business restrictions of an
 organization’s data. Along with this, suggested and implemented a business idea to improve the company cost and revenue.</p>
