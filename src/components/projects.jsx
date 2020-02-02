@@ -1,25 +1,27 @@
 import React, { Component } from 'react'
 
 export default class Projects extends Component {
-  render() {
-    return (
-      <div>
+	render() {
+		return (
+			<div>
 				<section className="colorlib-work" data-section="projects">
 					<div className="colorlib-narrow-content">
+					<span className="heading-meta">My Work</span>
 						<div className="row">
+						<h2 className="colorlib-heading animate-box">Publications</h2>
 							<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-								<span className="heading-meta">My Work</span>
-								<h2 className="colorlib-heading animate-box">Publications</h2>
-								<p><a href="https://www.ijsr.net/archive/v9i1/ART20204190.pdf">Security Challenges and Solutions in MongoDB </a></p>
-								<h2 className="colorlib-heading animate-box">Certifications</h2>
-								<p><a href="https://drive.google.com/file/d/1tPO6Kecl40KcHW2h_Mgotjr2d-BSB_ag/view">Certified Salesforce Administrator</a> Apr 2015 - Apr 2016</p>
-								<p><a href="https://drive.google.com/file/d/1LN8NJ85H0bw9MY3gysx2HMLm-g1LBOFF/view">Certified Salesforce Developer</a> Feb 2015 - Feb 2016</p>
+								<div className="row">
+									<p><a href="https://www.ijsr.net/archive/v9i1/ART20204190.pdf">Security Challenges and Solutions in MongoDB </a></p>
+									<h2 className="colorlib-heading animate-box">Certifications</h2>
+									<p><a href="https://drive.google.com/file/d/1tPO6Kecl40KcHW2h_Mgotjr2d-BSB_ag/view">Certified Salesforce Administrator</a> Apr 2015 - Apr 2016</p>
+									<p><a href="https://drive.google.com/file/d/1LN8NJ85H0bw9MY3gysx2HMLm-g1LBOFF/view">Certified Salesforce Developer</a> Feb 2015 - Feb 2016</p>
+								</div>
 							</div>
 						</div>
-						<h2 className="colorlib-heading animate-box">Recent Projects</h2>
 						<div className="row">
-						<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/music.jpg)'}}>
+						<h2 className="colorlib-heading animate-box">Recent Projects</h2>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+								<div className="project" style={{ backgroundImage: 'url(images/music.jpg)' }}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Synphony Musical Website</a></h3>
@@ -35,12 +37,12 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/restaurant.jpg)'}}>
+								<div className="project" style={{ backgroundImage: 'url(images/restaurant.jpg)' }}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Alan's Menuserve Restaurant</a></h3>
 											<span>Django/HTML5/CSS/PostgreSQL/Redis/Azure</span>
-											<p className="project-para">Developed a web application catering a restaurant’s requirement with multiple stores, employees, 
+											<p className="project-para">Developed a web application catering a restaurant’s requirement with multiple stores, employees,
 												managers, orders, menu items in HTML5 + CSS3, Django, deployed to Azure (DevOps for CI/CD), PostgreSQL.</p>
 											<p className="icon">
 												<span><a href="https://github.com/alan9262/MenuServer"><i className="icon-share3" /></a></span>
@@ -51,7 +53,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/android.jpeg)'}}>
+								<div className="project" style={{ backgroundImage: 'url(images/android.jpeg)' }}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Android App for Meals</a></h3>
@@ -66,7 +68,7 @@ stored in MongoDB, which was also used to display logs in a separate JSP webpage
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/blockchain.jpg)'}}>
+								<div className="project" style={{ backgroundImage: 'url(images/blockchain.jpg)' }}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Blockchain Implementation</a></h3>
@@ -78,7 +80,7 @@ added to the block was verified via proof of work algorithm and if the chain was
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/database.png)'}}>
+								<div className="project" style={{ backgroundImage: 'url(images/database.png)' }}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Database Implementation Project</a></h3>
@@ -92,7 +94,7 @@ organization’s data. Along with this, suggested and implemented a business ide
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/RSA.jpg)'}}>
+								<div className="project" style={{ backgroundImage: 'url(images/RSA.jpg)' }}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">RSA cryptography algorithm encoding/decoding</a></h3>
@@ -111,7 +113,7 @@ between client and server on UDP/TCP connections involving implementation of RSA
 						</div> */}
 					</div>
 				</section>
-      </div>
-    )
-  }
+			</div>
+		)
+	}
 }

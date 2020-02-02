@@ -10,7 +10,7 @@ export default class About extends Component {
                             <div className="col-md-12">
                                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                     <div className="col-md-12">
-                                        <div className="about-desc">
+                                        <div className="about-desc"><br></br><br></br>
                                             <span className="heading-meta">About Me</span>
                                             <p>I am a graduate student at Carnegie Mellon University pursuing Information Systems Management. With a demonstrated experience in different industries for about 5 years, I have received many challenges and domain changes in terms of technologies, starting from learning salesforce and Java, learning and developing excel VBA macros, handling/managing teams and moving to web development (learning JavaScript and related UI technologies). With my quick grasping ability, constant learning and positive attitude I have successfully achieved different milestones in my career. </p>
                                             <p>I am passionate about coding and am skilled in software development lifecycle, from managing teams to building and delivering quality products through Agile and Waterfall methodologies.</p>
@@ -31,8 +31,6 @@ export default class About extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
-                <section className="colorlib-about">
                     <div className="row row-pt-md">
                         <div className="col-md-6 text-center animate-box">
                             <div className="services color-1">
