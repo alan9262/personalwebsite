@@ -147,7 +147,7 @@ export default class About extends Component {
                                     </span>
                                     <div className="desc">
                                         <h3>PES Institute of Technology, Visvesvaraya Technical University</h3>
-                                        <p>Bachelor of Engineering in Mechanical Engineering</p><br></br>
+                                        <p>Bachelor of Engineering in Mechanical Engineering</p>
                                         <p></p>
                                     </div>
                                 </div>
