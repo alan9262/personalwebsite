@@ -10,8 +10,9 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div className="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
               <h1 id="colorlib-logo"><a href="index.html">Alankrit Chaturvedi</a></h1>
-              <span className="email"><i className="icon-mail"></i>  alankrit.chaturvedi@gmail.com | alankric@andrew.cmu.edu </span><br />
+              <span className="email"> <i className="icon-mail"></i> alankrit.chaturvedi@gmail.com</span>
             </div>
+            <hr></hr>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
@@ -24,8 +25,12 @@ export default class Sidebar extends Component {
             <nav id="colorlib-main-menu">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li><a href="https://www.linkedin.com/in/alankritchaturvedi/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                  <li><a href="https://github.com/alan9262" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                  <li><button className="btn btn-outline icon-linkedin2 " onClick={() => {
+                    window.open("https://www.linkedin.com/in/alankritchaturvedi", "window")
+                  }} ></button></li>
+                  <li><button className="icon-github btn btn-outline" onClick={() => {
+                    window.open("https://github.com/alan9262", "window")
+                  }} ></button></li>
                 </ul>
               </div>
             </nav>
