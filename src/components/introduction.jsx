@@ -26,7 +26,7 @@ export default class Introduction extends Component {
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
-                    <div className="col-md-8 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                    <div className="col-md-10 col-md-offset-3 col-md-pull-3 col-sm-14 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1 style={{color: "whitesmoke"}}>Have a look at some of my work</h1>

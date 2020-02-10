@@ -6,9 +6,9 @@ export default class Projects extends Component {
 			<div>
 				<section className="colorlib-work" data-section="projects">
 					<div className="colorlib-narrow-content">
-					<span className="heading-meta">My Work</span>
+						<span className="heading-meta">My Work</span>
 						<div className="row">
-						<h2 className="colorlib-heading animate-box">Publications</h2>
+							<h2 className="colorlib-heading animate-box">Publications</h2>
 							<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 								<div className="row">
 									<p><a href="https://www.ijsr.net/archive/v9i1/ART20204190.pdf">Security Challenges and Solutions in MongoDB </a></p>
@@ -19,7 +19,7 @@ export default class Projects extends Component {
 							</div>
 						</div>
 						<div className="row">
-						<h2 className="colorlib-heading animate-box">Recent Projects</h2>
+							<h2 className="colorlib-heading animate-box">Recent Projects</h2>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
 								<div className="project" style={{ backgroundImage: 'url(images/music.jpg)' }}>
 									<div className="desc">
@@ -106,14 +106,25 @@ between client and server on UDP/TCP connections involving implementation of RSA
 								</div>
 							</div>
 						</div>
-						{/* <div className="row">
+						<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+							<div className="project" style={{ backgroundImage: 'url(images/cal.jpg)' }}>
+								<div className="desc">
+									<div className="con">
+										<h3><a href="work.html">Real time Django Calculator</a></h3>
+										<span>Java</span>
+										<p className="project-para">Built a calculator on django without storing data in the database. Used hidden fields for transferring operators, values and results in order to display it efficiently on the web application.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					{/* <div className="row">
 							<div className="col-md-12 animate-box">
 								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
 							</div>
 						</div> */}
-					</div>
 				</section>
-			</div>
+			</div >
 		)
 	}
 }
