@@ -158,7 +158,7 @@ export default class About extends Component {
                                             <h3>Carnegie Mellon University</h3>
                                             <h4>2019-2020</h4>
                                             <p>Master of Information Systems Management</p>
-                                            <i>Pittsbugrh, Pennsylvania, USA</i><br></br>
+                                            <i>Pittsburgh, Pennsylvania, USA</i><br></br>
                                         </div>
                                     </div>
                                 </div>

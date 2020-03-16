@@ -335,7 +335,7 @@ figure {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
             border: 1px solid #000;
-            background: whitesmoke !important; }
+            background: gainsboro !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
@@ -1432,3 +1432,4 @@ body.offcanvas {
 .project-para{
   color: whitesmoke;
 }
+

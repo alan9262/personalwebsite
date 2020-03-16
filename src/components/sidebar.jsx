@@ -14,9 +14,11 @@ export default class Sidebar extends Component {
               <div className="author-img" style={{ backgroundImage: this.state.image }} />
               <h1 id="colorlib-logo" style={{fontFamily: "Comic-Sans"}}><a href="index.html">Alankrit Chaturvedi</a></h1>
               <span className="location"> <i className="icon-mail6"></i> alankrit.chaturvedi@gmail.com</span><br></br>
+              
+              <span className="location"> <i className="icon-study"></i> Carnegie Mellon University</span><br></br>
               <span className="location"> <i className="icon-location4"></i> Pittsburgh, PA, USA</span>
             </div>
-            <hr></hr>
+        <br></br><br></br>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
