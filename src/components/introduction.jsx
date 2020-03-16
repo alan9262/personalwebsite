@@ -24,7 +24,6 @@ export default class Introduction extends Component {
                       </div>
                     </div>
                   </div>
-                  <h4 style={{ color: "whitesmoke", textAlign: "center" }}>Please scroll!</h4>
                 </li>
                 <li style={{ backgroundImage: 'url(images/unnamed.png)' }}>
                   <div className="overlay" />
@@ -40,7 +39,6 @@ export default class Introduction extends Component {
                       </div>
                     </div>
                   </div>
-                  <h4 style={{ color: "whitesmoke" }}>Please scroll!</h4>
                 </li>
                 
               </ul>
