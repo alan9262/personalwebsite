@@ -9,19 +9,35 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">TIMELINE</span>
-                
+
               </div>
             </div>
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-briefcase" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Project Manager - AI driven Marketing | Capstone <b>Tata Consultancy Services</b> <span>Jan 2020-Present</span></h2>
+                        <h5 > <i>Pittsburgh, PA, USA</i></h5>
+                        <li>Working with a team of 5, focusing on increasing customer conversion rate on an e-commerce platform using Machine Learning algorithms and enhancing UX.</li>
+                        <li>Solution architect of the problem.</li>
+                        <li>Developing and testing ML algorithms for better accuracy and marketing.</li>
+                        <li>Developing a web interface to display the concept in action and provide insights for targeted marketing.</li>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
                         <i className="icon-briefcase" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Graduate Teaching Assistant at <b>Carnegie Mellon University</b> <span>Jan 2020-present</span></h2>
+                        <h2>Graduate Teaching Assistant at <b>Carnegie Mellon University</b> <span>Jan 2020-Present</span></h2>
+                        <h5 > <i>Pittsburgh, PA, USA</i></h5>
                         <p>Graduate Teaching Assistant for Distributed Systems, working with Prof. Martin Barrett, Prof. Joseph Mertz and Prof. Michael McCarthy to grade assignments/exams and help ~150 students with the coursework.</p>
                       </div>
                     </div>
@@ -33,6 +49,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Graduate Teaching Assistant at <b>Carnegie Mellon University</b> <span>Aug 2019-Dec 2019</span></h2>
+                        <h5 > <i>Pittsburgh, PA, USA</i></h5>
                         <p>Graduate Teaching Assistant for Database Management, worked with Prof. Janusz Szczypula to grade assignments/exams and help ~200 students with the coursework.</p>
                       </div>
                     </div>
@@ -45,6 +62,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Web developer at <b>Tesco</b> <span>Sep 2016–Apr 2019</span></h2>
+                        <h5 > <i>Bengaluru, Karnataka, India</i></h5>
                         <li>Worked on Tesco Retail website with the tech stack of React, NodeJS, Nginx, Webpack, AWS following Agile Methodology.</li>
                         <li>Collaborated with Product Managers of UK, Thailand, Central Europe for UI/UX design.</li>
                         <li>Led a UI team of 4 developers for scaling website to Thailand and Central Europe using ‘i18n' react library.</li>
@@ -62,6 +80,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Salesforce Developer at <b>Tesco</b> <span>Sep 2015 – Dec 2017</span></h2>
+                        <h5 > <i>Bengaluru, Karnataka, India</i></h5>
                         <li>Worked as a salesforce developer/architect and developed multiple projects (phases) in
                         salesforce platform related to the wholesale department of Tesco using Apex and Java.</li>
                         <li>Automated support activities by implementing validation rules and Apex triggers that reduced the everyday manual effort from 5 hours to 30 minutes on salesforce.</li>
@@ -79,6 +98,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Associate Software Engineer at <b>Accenture</b> <span>Aug 2014 – Sep 2015</span></h2>
+                        <h5 > <i>Bengaluru, Karnataka, India</i></h5>
                         <li>Worked entirely on the platform of salesforce.com following Waterfall methodology.</li>
                         <li>Fulfilled the role of support and development analyst for a major Pharmaceutical organization.</li>
                         <li>Hands-on experience in writing Apex classes, Apex Triggers and creating Visualforce pages.</li>
@@ -88,6 +108,38 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
+
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-briefcase" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Intern -  <b>Jaypee Rewa Power Plant</b> <span>Oct 2013</span></h2>
+                        <h5 > <i>Rewa, MP, India</i></h5>
+                        <li>Experienced the power plant processing with the capacity of 130 MW of power.</li>
+                        <li>Experienced first hand working of a boiler, condensor, generator.</li>
+                        <li>Understood different roles associated in a power plant</li>
+                        <li>Attended safety training</li>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-briefcase" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Intern -  <b> Jaypee Heavy Engineering Workshop</b> <span>Apr 2013</span></h2>
+                        <h5 > <i>Rewa, MP, India</i></h5>
+                        <li>Interned at the Asia's largest engineering workshop responsible for creating hydroelectric wheels</li>
+                        <li>Experienced CNC programmed cutting, polishing and fabrication of materials</li>
+                        <li>Worked on hydarulic pumps</li>
+                      </div>
+                    </div>
+                  </article>
+
                   <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-none">

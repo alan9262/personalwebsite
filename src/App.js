@@ -17,7 +17,7 @@ class App extends Component {
             <Introduction></Introduction>
             <About></About>
             <Timeline></Timeline>
-            <Projects></Projects>
+            <Projects ></Projects>
             <Footer></Footer>
           </div>
         </div>

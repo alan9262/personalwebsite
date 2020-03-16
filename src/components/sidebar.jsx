@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 
 export default class Sidebar extends Component {
+  state = {
+    image: 'url(images/about.jpg)'
+  }
   render() {
     return (
       <div>
@@ -8,10 +11,10 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
-              <img src={'images/name.jpg'} style={{ width: '100%'}}/> 
-              {/* <h1 id="colorlib-logo"><a href="index.html">Alankrit Chaturvedi</a></h1> */}
-              <span className="email"><i className="icon-mail"></i> alankrit.chaturvedi@gmail.com</span>
+              <div className="author-img" style={{ backgroundImage: this.state.image }} />
+              <h1 id="colorlib-logo" style={{fontFamily: "Comic-Sans"}}><a href="index.html">Alankrit Chaturvedi</a></h1>
+              <span className="location"> <i className="icon-mail6"></i> alankrit.chaturvedi@gmail.com</span><br></br>
+              <span className="location"> <i className="icon-location4"></i> Pittsburgh, PA, USA</span>
             </div>
             <hr></hr>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">

@@ -11,15 +11,16 @@ export default class Projects extends Component {
 							<h2 className="colorlib-heading animate-box">Publications</h2>
 							<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 								<div className="row">
-									<p><a href="https://www.ijsr.net/archive/v9i1/ART20204190.pdf">Security Challenges and Solutions in MongoDB </a></p>
+									<p><a href="https://www.ijsr.net/archive/v9i1/ART20204190.pdf">Security Challenges and Solutions in MongoDB </a> <i style={{ float: "right" }}>Jan 2020</i></p>
 									<h2 className="colorlib-heading animate-box">Certifications</h2>
-									<p><a href="https://drive.google.com/file/d/1tPO6Kecl40KcHW2h_Mgotjr2d-BSB_ag/view">Certified Salesforce Administrator</a> Apr 2015 - Apr 2016</p>
-									<p><a href="https://drive.google.com/file/d/1LN8NJ85H0bw9MY3gysx2HMLm-g1LBOFF/view">Certified Salesforce Developer</a> Feb 2015 - Feb 2016</p>
+									<p><a href="https://www.scrum.org/certificates/510785">Professional Scrum Master I</a> <i style={{ float: "right" }}>Feb 2020 - (does not expire)</i></p>
+									<p><a href="https://drive.google.com/file/d/1tPO6Kecl40KcHW2h_Mgotjr2d-BSB_ag/view">Certified Salesforce Administrator</a> <i style={{ float: "right" }}>Apr 2015 - Apr 2016</i></p>
+									<p><a href="https://drive.google.com/file/d/1LN8NJ85H0bw9MY3gysx2HMLm-g1LBOFF/view">Certified Salesforce Developer</a> <i style={{ float: "right" }}>Feb 2015 - Feb 2016</i></p>
 								</div>
 							</div>
 						</div>
 						<div className="row">
-							<h2 className="colorlib-heading animate-box">Recent Projects</h2>
+							<h2 className="colorlib-heading animate-box">Projects</h2>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
 								<div className="project" style={{ backgroundImage: 'url(images/music.jpg)' }}>
 									<div className="desc">
@@ -32,6 +33,18 @@ export default class Projects extends Component {
 												<span><a href="https://github.com/alan9262/Synphony-music-web"><i className="icon-share3" /></a></span>
 												<span><a href="http://frozen-castle-16239.herokuapp.com/"><i className="icon-eye" /> </a></span>
 											</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+								<div className="project" style={{ backgroundImage: 'url(images/nn.jpeg)' }}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">Convolutional Neural Networks</a></h3>
+											<span>Python, PyTorch, Google Colaboratory</span>
+											<p className="project-para">Using Resnet, CNN, trained a deep learning model to achieve 97% accuracy in identifying 10 given places wit images dataset.</p>
 										</div>
 									</div>
 								</div>
@@ -117,12 +130,33 @@ between client and server on UDP/TCP connections involving implementation of RSA
 								</div>
 							</div>
 						</div>
-					</div>
-					{/* <div className="row">
-							<div className="col-md-12 animate-box">
-								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
+						<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+							<div className="project" style={{ backgroundImage: 'url(images/excel.jpeg)' }}>
+								<div className="desc">
+									<div className="con">
+										<h3><a href="work.html">Excel tool in 5 languages</a></h3>
+										<span>VBA Macros</span>
+										<p className="project-para"> Developed an excel macro VBA tool in five languages i.e. Czech, Polish, Hungarian, English and Slovak. This tool was used to bulk induct Tesco products with validation on 25+ fields.
+The validation time of the tool was 40 seconds for 500 products, which was 70% efficient than the existing tool used by business.</p>
+									</div>
+								</div>
 							</div>
-						</div> */}
+						</div>
+						<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+							<div className="project" style={{ backgroundImage: 'url(images/scooter.png)' }}>
+								<div className="desc">
+									<div className="con">
+										<h3><a href="work.html">Hybrid Bike with Solar Charging</a></h3>
+										<span>Mechanical Project</span>
+										<p className="project-para"> Developed a hybrid bike, that runs both on fuel and battery.
+	Battery is charged manually, through solar panel and through a regenerative circuit when bike is running on fuel.
+Increased mileage of the bike from 32kmpl to 68 kmpl for 60 kg load.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
 				</section>
 			</div >
 		)
