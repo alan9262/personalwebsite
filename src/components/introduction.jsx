@@ -18,7 +18,7 @@ export default class Introduction extends Component {
                           <h2 style={{ color: "whitesmoke", fontFamily: "'Raleway', sans-serif; !important" }}><b>Hello World! </b> You can call me Alan.
                             
                           </h2>
-                          <p ><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/1WAl7EAvckczrdndxdQgoq2XzQiAD1rqn/edit" target="_blank" rel="noopener noreferrer">View Résumé <i className="icon-download4" /></a></p><br></br><br></br><br></br>
+                          <p ><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1eDVjpPI_-gCd9NMT21DkVOtG4RA7bxVN/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Résumé <i className="icon-download4" /></a></p><br></br><br></br><br></br>
                           
                           
                           <h2 style={{ color: "whitesmoke", fontFamily: "'Raleway', sans-serif;" }}>I have worked as a 
