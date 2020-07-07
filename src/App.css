@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+
+.h2-front {
+  color: whitesmoke !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.concept {
+  color: whitesmoke !important;
+  font-family: 'Raleway', sans-serif !important;
+  margin-top: 4rem !important;
+}
+
+.other-work {
+  background-color: whitesmoke;
+  padding: 2rem;
+  border-radius: 1rem;
+  border-top: solid 1px black;
+  position: relative;
+  margin-top: 1rem;
+  display: inline-grid;
+}
