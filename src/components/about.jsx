@@ -70,7 +70,7 @@ export default class About extends Component {
                                     </span>
                                     <div className="desc">
                                         <h3>Web Technologies</h3>
-                                        <p>HTML5/CSS/JS, Django, Java Servlets, JSP, React, NodeJS, ExpressJS, Apex, Bootstrap, Materialize</p>
+                                        <p>HTML5/CSS/JS, Django, Java Servlets, JSP, React, Angular 1, NodeJS, ExpressJS, Apex, Bootstrap, Materialize</p>
                                     </div>
                                 </div>
                             </div>

@@ -15,15 +15,27 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-briefcase" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Full Stack Developer at <b>Scry Analytics Inc.</b> <span>Aug 2020-Present</span></h2>
+                        <h5 > <i>San Jose, CA, USA</i></h5>
+                        <li>Working on MEAN stack for finance clients.</li>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
                         <i className="icon-briefcase" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Project Manager - AI driven Marketing | Capstone <b>Tata Consultancy Services</b> <span>Jan 2020-Present</span></h2>
+                        <h2>Technical Project Manager | Capstone with <b>Tata Consultancy Services</b> <span>Jan 2020-Present</span></h2>
                         <h5 > <i>Pittsburgh, PA, USA</i></h5>
-                        <li>Working with a team of 5, focusing on increasing customer conversion rate on an e-commerce platform using Machine Learning algorithms and enhancing UX.</li>
+                        <li>Working with a team of 5, focusing on increasing customer conversion rate on an e-commerce platform using Machine Learning algorithms</li>
                         <li>Solution architect of the problem.</li>
                         <li>Developing and testing ML algorithms for better accuracy and marketing.</li>
                         <li>Developing a web interface to display the concept in action and provide insights for targeted marketing.</li>
@@ -42,7 +54,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-2">
                         <i className="icon-briefcase" />
@@ -73,7 +85,7 @@ export default class Timeline extends Component {
                     </div>
                   </article>
 
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
                         <i className="icon-briefcase" />
@@ -91,7 +103,7 @@ export default class Timeline extends Component {
                     </div>
                   </article>
 
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
                         <i className="icon-briefcase" />
@@ -109,7 +121,7 @@ export default class Timeline extends Component {
                     </div>
                   </article>
 
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-2">
                         <i className="icon-briefcase" />
@@ -125,7 +137,7 @@ export default class Timeline extends Component {
                     </div>
                   </article>
 
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
                         <i className="icon-briefcase" />
@@ -140,7 +152,7 @@ export default class Timeline extends Component {
                     </div>
                   </article>
 
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-none">
                       </div>

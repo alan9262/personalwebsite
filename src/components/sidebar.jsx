@@ -13,10 +13,13 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div className="author-img" style={{ backgroundImage: this.state.image }} />
               <h1 id="colorlib-logo" style={{fontFamily: "Comic-Sans"}}><a href="index.html">Alankrit Chaturvedi</a></h1>
+              <span className="location"> <i className="icon-layers2"></i> Full Stack Developer | Class of 2020</span><br></br><hr></hr>
               <span className="location"> <i className="icon-mail6"></i> alankrit.chaturvedi@gmail.com</span><br></br>
               
               <span className="location"> <i className="icon-study"></i> Carnegie Mellon University</span><br></br>
-              <span className="location"> <i className="icon-location4"></i> Pittsburgh, PA, USA</span>
+              
+              
+              <span className="location"> <i className="icon-location4"></i> San Francisco Bay Area, California</span>
             </div>
         <br></br><br></br>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">

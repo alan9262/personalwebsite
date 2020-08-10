@@ -50,7 +50,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{ backgroundImage: 'url(images/restaurant.jpg)' }}>
+								<div className="project" style={{ backgroundColor: 'gray' }}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Alan's Menuserve Restaurant</a></h3>
@@ -81,7 +81,7 @@ stored in MongoDB, which was also used to display logs in a separate JSP webpage
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{ backgroundImage: 'url(images/blockchain.jpg)' }}>
+								<div className="project" style={{ backgroundColor: 'lightblue'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Blockchain Implementation</a></h3>
@@ -131,7 +131,7 @@ between client and server on UDP/TCP connections involving implementation of RSA
 							</div>
 						</div>
 						<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-							<div className="project" style={{ backgroundImage: 'url(images/excel.jpeg)' }}>
+							<div className="project" style={{ backgroundColor: 'blue'}}>
 								<div className="desc">
 									<div className="con">
 										<h3><a href="work.html">Excel tool in 5 languages</a></h3>
@@ -143,7 +143,7 @@ The validation time of the tool was 40 seconds for 500 products, which was 70% e
 							</div>
 						</div>
 						<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-							<div className="project" style={{ backgroundImage: 'url(images/scooter.png)' }}>
+							<div className="project" style={{ backgroundColor: 'red'}}>
 								<div className="desc">
 									<div className="con">
 										<h3><a href="work.html">Hybrid Bike with Solar Charging</a></h3>
