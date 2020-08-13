@@ -19,7 +19,7 @@ export default class Sidebar extends Component {
               <span className="location"> <i className="icon-study"></i> Carnegie Mellon University</span><br></br>
               
               
-              <span className="location"> <i className="icon-location4"></i> San Francisco Bay Area, California</span>
+              <span className="location"> <i className="icon-location4"></i> Bay Area, California</span>
             </div>
         <br></br><br></br>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">

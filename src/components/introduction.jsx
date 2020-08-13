@@ -30,7 +30,7 @@ export default class Introduction extends Component {
 
                           <p><a className="btn btn-primary btn-learn" href="https://github.com/alan9262" target="_blank" rel="noopener noreferrer">View Projects <i className="icon-briefcase3" /></a></p>
                         </div>
-                        <div>
+                        <div><br></br>
                           <h2 className="concept"><b>Work/Publication:</b></h2>
                           <span className="other-work">
                             <p>AI 4R Driven Marketing (with TCS) <a style={{float: "right"}} href="https://tcsai4rm.herokuapp.com/" target="_blank"><i className="icon-link"></i></a></p>
